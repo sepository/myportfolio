@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <b-button variant="primary">bootstrap</b-button>
   </div>
 </template>
 
