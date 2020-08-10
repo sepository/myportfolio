@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Welcome from '@/components/Welcome'
 import Profile from '@/components/Profile'
 import Skill from '@/components/Skill'
 import Contact from '@/components/Contact'
@@ -11,11 +10,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Welcome',
-      component: Welcome
-    },
-    {
-      path: '/profile',
       name: 'Profile',
       component: Profile
     },
