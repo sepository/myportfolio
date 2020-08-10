@@ -1,8 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <b-navbar toggleable="sm" type="dark" variant="primary">
+      <b-navbar-toggle target="nav-collapse"/>
+
+      <b-collapse id="nav-collapse" class="justify-content-around" is-nav>
+        <b-navbar-nav>
+          <b-nav-item to="/"><b-icon icon="house-fill"/>TOP</b-nav-item>
+          <b-nav-item to="/profile"><b-icon icon="person-fill"/>PROFILE</b-nav-item>
+          <b-nav-item to="/skill"><b-icon icon="gem" style="width: 24px; height: 24px;"/>SKILL</b-nav-item>
+          <b-nav-item to="/contact"><b-icon icon="mailbox2"/>CONTACT</b-nav-item>
+        </b-navbar-nav>  
+      </b-collapse>
+    </b-navbar>
+
     <router-view/>
-    <b-button variant="primary">bootstrap</b-button>
   </div>
 </template>
 
@@ -19,6 +30,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+a {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 22px;
+  font-weight: bold;
 }
 </style>
