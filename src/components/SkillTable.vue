@@ -8,6 +8,11 @@
       <template v-slot:cell(year)="data">
         {{ data.item.year > 0 ? data.item.year + "年" : "1年未満" }}
       </template>
+      <template v-slot:cell(comment)="data">
+        <b-button size="sm" variant="outline-primary" pill @click="$emit('show', data.item.name, data.item.comment, $event.target)">
+          <b-icon-chat-left-text></b-icon-chat-left-text>
+        </b-button>
+      </template>
     </b-table>
   </div>
 </template>
@@ -26,9 +31,10 @@ export default {
     return {
       items: [],
       fields:[
-        { key: "name",  label: "名称" },
-        { key: "exp",   label: "経験" },
-        { key: "year",  label: "年数" }
+        { key: "name",    label: "名称" },
+        { key: "exp",     label: "経験" },
+        { key: "year",    label: "年数" },
+        { key: "comment", label: ""}
       ],
       exp_names: ["趣味", "実務"]
     }

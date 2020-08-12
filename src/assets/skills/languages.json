@@ -1,5 +1,20 @@
 [
-  { "name": "Visual Basic", "exp": 1, "year": 6},
-  { "name": "C#",           "exp": 1, "year": 1},
-  { "name": "PHP",          "exp": 0, "year": 0}
+  {
+    "name": "Visual Basic",
+    "exp": 1,
+    "year": 6,
+    "comment": "前職のシステム開発でメインに使った言語です。フロントエンドはWindowsForms、バックエンドはASP.NETで開発していました。"
+  },
+  {
+    "name": "C#",
+    "exp": 1,
+    "year": 1,
+    "comment": "主に作業用のツール作成に使用していました。HTMLからデータ部分を取得して、システム用にデータを変換するといったツールを作成していました。"
+  },
+  {
+    "name": "PHP",
+    "exp": 0,
+    "year": 0,
+    "comment": "Laravelを勉強中です。"
+  }
 ]

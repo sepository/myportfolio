@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Oracle",
+    "exp": 1,
+    "year": 6,
+    "comment": "主に設計と開発を行っていました。テーブルやデータのメンテナンスはSQL Plusを使用していました。"
+  },
+  {
+    "name": "SQL Anywhere",
+    "exp": 1,
+    "year": 3,
+    "comment": "前職ではOracleから乗り換えるような形で使い始めました。環境構築、設計、開発、いずれも経験しています。"
+  },
+  {
+    "name": "SQL Server",
+    "exp": 1,
+    "year": 1,
+    "comment": "基本的なSQLとバックアップ等のメンテナンス程度の経験です。"
+  }
+]
