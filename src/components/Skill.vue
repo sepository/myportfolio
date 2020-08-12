@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>Skills</h1>
     <div class="row mx-auto">
       <SkillTable title="開発言語" file="languages" @show="showComment"></SkillTable>
       <SkillTable title="データベース" file="databases" @show="showComment"></SkillTable>

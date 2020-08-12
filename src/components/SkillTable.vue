@@ -1,5 +1,5 @@
 <template>
-  <div class="col-sm mx-2 border border-secondary rounded">
+  <div class="col-sm m-2 border border-secondary rounded">
     <h5>{{ title }}</h5>
     <b-table :fields="fields" :items="items">
       <template v-slot:cell(exp)="data">
@@ -44,10 +44,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  h5 {
-    margin: 15px;
-    font-weight: bold;
-  }
-</style>
