@@ -38,12 +38,14 @@ a {
   font-size: 22px;
   font-weight: bold;
 }
-h1 {
+.page-title {
   font-family: 'Sora', sans-serif;
-  margin: 30px;
+  font-size: 2.5rem;
+  margin: 24px;
 }
-h5 {
-  margin: 15px;
+.content-title {
+  font-size: 1.25rem;
   font-weight: bold;
+  margin: 15px;
 }
 </style>

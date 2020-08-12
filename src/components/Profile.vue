@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Matsuki, Noriyuki's Portfolio</h1>
+    <p class="page-title">Matsuki, Noriyuki's Portfolio</p>
 
     <b-card align="left" class="mx-auto" style="max-width: 720px" no-body>
       <b-card-header header-class="text-center">自己紹介</b-card-header>

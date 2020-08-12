@@ -1,6 +1,6 @@
 <template>
   <div class="col-sm m-2 border border-secondary rounded">
-    <h5>{{ title }}</h5>
+    <p class="content-title">{{ title }}</p>
     <b-table :fields="fields" :items="items">
       <template v-slot:cell(exp)="data">
         {{ exp_names[data.item.exp] }}
